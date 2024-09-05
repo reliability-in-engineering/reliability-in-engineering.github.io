@@ -1,7 +1,6 @@
 body {
-  color: #ffffff;
-  background-color: #121212 !important;
-  letter-spacing: 1px;
+  color: #f2f3f4;
+  background-color: #333333 !important;
   font-family: "Roboto Flex", sans-serif !important;
 }
 
@@ -68,7 +67,7 @@ li {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #121212; /* Adjust background color as needed */
+  background-color: #f2f3f4; /* Adjust background color as needed */
 }
 
 .pdf-viewer {
@@ -193,8 +192,8 @@ li {
     padding-right: 15px;
   }
   .navbar-toggler-icon {
-    border-color: #ffffff;
-    color: #ffffff;
+    border-color: #121212;
+    color: #121212;
   }
   .text-box {
     max-width: 95vw;
@@ -265,7 +264,7 @@ li {
   -webkit-backdrop-filter: blur( 7px );
   border-radius: 0px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  color: #f1f1f1;
+  color: #333333;
   z-index: 1;
   white-space: nowrap
   }
@@ -293,8 +292,8 @@ li {
 }
 
 .skillsSection.section {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: #f2f3f4;
+  color: #333333;
 }
 
 .statsSection h4 {
@@ -302,12 +301,12 @@ li {
 }
 
 .contactSection {
-  background-color: #121212 !important;
-  color: #ffffff !important;
+  background-color: #f2f3f4 !important;
+  color: #333333 !important;
 }
 
 .statsSection {
-  background-color: #121212 !important;
+  background-color: #f2f3f4 !important;
 }
 
 .skill {
@@ -339,7 +338,7 @@ li {
 }
 
 .chart .percent {
-  color: #fff;
+  color: #333333;
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
@@ -370,7 +369,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 3.5rem;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #fff;
+  color: #333333;
 }
 
 .squareContent h3 {
@@ -380,11 +379,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .squareContent h4 {
-  color: #fff;
+  color: #333333;
 }
 
 .counter {
-  color: #fff;
+  color: #333333;
 }
 
 .squareIcon {
@@ -411,7 +410,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .downloadButton:hover {
   transition: .75s ease-in-out;
-  background: #1334D6;
+  background: #00ADD8;
   color: #fff;
   text-decoration: none;
 }
@@ -450,7 +449,7 @@ svg {
 
 .contactButton:hover {
   transition: .75s ease-in-out;
-  background: #1334D6;
+  background: #00ADD8;
   color: #fff;
   text-decoration: none;
 }
@@ -475,7 +474,7 @@ svg {
   width: 100%;
   max-width: 60vw;
   border-radius: 35px;
-  background: rgba(39, 39, 39, 0.1);
+  background: rgba(39, 39, 39, 0.75);
   backdrop-filter: blur(10px);
   /* fallback for old browsers */
   -webkit-backdrop-filter: blur(10px);
@@ -485,16 +484,16 @@ svg {
 
 #navigation li {
   margin: 0 auto;
-  color: #ffffff;
+  color: #333333;
 }
 
 #navigation li a {
-  color: #ffffff;
+  color: #333333;
   font-size: 0.875rem !important;
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #ffffff 2px;
+  text-decoration: underline solid #00ADD8 2px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
@@ -509,7 +508,7 @@ div#navbarNav.collapse.navbar-collapse {
 .loader {
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #f2f3f4;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -521,7 +520,7 @@ div#navbarNav.collapse.navbar-collapse {
   height: 100%;
   background: url(../img/Sphere_rotating_transparency.gif) center center
     no-repeat;
-  background-color: #000000;
+  background-color: #f2f3f4;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -536,11 +535,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #333333;
 }
 
 a {
-  color: black;
+  color: 333333;
   text-decoration: none;
 }
 
