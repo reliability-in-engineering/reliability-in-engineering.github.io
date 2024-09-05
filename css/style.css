@@ -359,11 +359,12 @@ li {
   padding: 25px 35px;
   text-align: center;
   border-radius: 10px;
-  background: rgba( 19, 52, 214, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 6px );
--webkit-backdrop-filter: blur( 6px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: #f2f3f4;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #333333;
 }
 
 .squareContent h2 {
@@ -400,13 +401,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba( 19, 52, 214, 0.15 );
+  background: #ffffff;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 1px );
   -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
   transition: .75s ease-in-out;
+  color: #333333;
 }
 
 .downloadButton:hover {
@@ -439,13 +441,14 @@ svg {
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
-  background: rgba( 19, 52, 214, 0.15 );
+  background: #ffffff;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 1px );
   -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   outline: none;
   transition: .75s ease-in-out;
+  color: #333333;
 }
 
 .contactButton:hover {
