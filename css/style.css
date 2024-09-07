@@ -59,26 +59,25 @@ li {
   height: 100%;
 }
 
-
 .pdf-container {
-    width: 80%;
-    height: 80vh; /* Make it responsive but not take full height on desktop */
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc; /* Optional: To show boundaries */
+  width: 80%;
+  height: 80vh; /* Make it responsive but not take full height on desktop */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
 .desktop-device {
-    display:block;
-    width: 100%;
-    height: 100%;
-    border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .mobile-device {
-  display:none;
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -107,7 +106,6 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-
 }
 
 @media only screen and (max-width: 750px) {
@@ -136,7 +134,7 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-    .pdf-container {
+  .pdf-container {
     width: 100%;
     height: 100%; /* Make it responsive but not take full height on desktop */
     max-width: 95vw;
@@ -144,14 +142,14 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .1px solid transparent; /* Optional: To show boundaries */
+    border: 0.1px solid transparent; /* Optional: To show boundaries */
   }
   .desktop-device {
-    display:none;
+    display: none;
   }
 
   .mobile-device {
-    display:block;
+    display: block;
     width: 100%; /* Make the image responsive */
     height: auto;
   }
@@ -169,7 +167,7 @@ li {
     padding-left: 10px;
     padding-right: 10px;
   }
-    .pdf-container {
+  .pdf-container {
     width: 100%;
     height: 100%; /* Make it responsive but not take full height on desktop */
     max-width: 95vw;
@@ -177,14 +175,14 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .1px solid transparent; /* Optional: To show boundaries */
+    border: 0.1px solid transparent; /* Optional: To show boundaries */
   }
   .desktop-device {
-    display:none;
+    display: none;
   }
 
   .mobile-device {
-    display:block;
+    display: block;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding: 0px 10px;
@@ -247,7 +245,7 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
-  
+
   #navigation {
     padding: 10px 10px !important;
     z-index: 100;
@@ -269,7 +267,7 @@ li {
     position: fixed;
     top: 0;
   }
-    .headingImage {
+  .headingImage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,23 +291,24 @@ li {
   width: 100%;
   max-width: 540px;
   padding: 14px 70px;
-  background: rgba( 18, 18, 18, 0.25 );
-  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-  border-radius: 12px;
+  background: rgba(18, 18, 18, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 9px;
   color: #333333;
   z-index: 1;
   white-space: nowrap;
   background: #f2f3f4;
-  }
-  .headingImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 540px;
-  }
+}
+
+.headingImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 540px;
+}
 
 .section {
   padding: 50px 0;
@@ -392,9 +391,10 @@ li {
   text-align: center;
   border-radius: 10px;
   background: #f2f3f4;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  backdrop-filter: blur( 6px );
-  -webkit-backdrop-filter: blur( 6px );
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   color: #333333;
 }
 
@@ -428,23 +428,23 @@ li {
   color: #ffffff;
   font-size: 1.275rem;
   font-weight: 400;
-  padding: 0.60rem 1.95rem;
+  padding: 0.6rem 1.95rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
   background: #ffffff;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 1px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
   color: #333333;
 }
 
 .downloadButton:hover {
-  transition: .75s ease-in-out;
-  background: #00ADD8;
+  transition: 0.75s ease-in-out;
+  background: #00add8;
   color: #fff;
   text-decoration: none;
 }
@@ -461,30 +461,30 @@ svg {
   stroke: #fff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 .contactButton {
   color: #ffffff;
   font-size: 1.275rem;
   font-weight: 400;
-  padding: 0.60rem 1.95rem;
+  padding: 0.6rem 1.95rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
   background: #ffffff;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 1px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
   color: #333333;
 }
 
 .contactButton:hover {
-  transition: .75s ease-in-out;
-  background: #00ADD8;
+  transition: 0.75s ease-in-out;
+  background: #00add8;
   color: #fff;
   text-decoration: none;
 }
@@ -528,7 +528,7 @@ svg {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #00ADD8 2px;
+  text-decoration: underline solid #00add8 2px;
 }
 
 div#navbarNav.collapse.navbar-collapse {
