@@ -59,30 +59,26 @@ li {
   height: 100%;
 }
 
-.pdf-viewer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #f2f3f4; /* Adjust background color as needed */
+
+.pdf-container {
+    width: 80%;
+    height: 80vh; /* Make it responsive but not take full height on desktop */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
-.pdf-viewer {
-  width: 100%;
-  max-width: 1000px; /* Max width to prevent it from being too wide */
-  height: 80vh; /* Set a height for the iframe to occupy most of the viewport */
-  margin: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for a nice effect */
+.desktop-device {
+    display:block;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-.pdf-viewer iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  margin: 0 auto;
+.mobile-device {
+  display:none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -140,6 +136,25 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
+    .pdf-container {
+    width: 100%;
+    height: 100%; /* Make it responsive but not take full height on desktop */
+    max-width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1px solid transparent; /* Optional: To show boundaries */
+  }
+  .desktop-device {
+    display:none;
+  }
+
+  .mobile-device {
+    display:block;
+    width: 100%; /* Make the image responsive */
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -153,6 +168,26 @@ li {
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
+  }
+    .pdf-container {
+    width: 100%;
+    height: 100%; /* Make it responsive but not take full height on desktop */
+    max-width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1px solid transparent; /* Optional: To show boundaries */
+  }
+  .desktop-device {
+    display:none;
+  }
+
+  .mobile-device {
+    display:block;
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    padding: 0px 10px;
   }
   .heading-section {
     text-align: center;
@@ -360,10 +395,9 @@ li {
   text-align: center;
   border-radius: 10px;
   background: #f2f3f4;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
   backdrop-filter: blur( 6px );
   -webkit-backdrop-filter: blur( 6px );
-  border: 1px solid rgba( 255, 255, 255, 0.1 );
   color: #333333;
 }
 
