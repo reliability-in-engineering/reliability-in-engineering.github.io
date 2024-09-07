@@ -1,6 +1,6 @@
 body {
-  color: #333333 !important;
-  background-color: #f2f3f4 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: #FFFFFF !important;
   font-family: "Roboto Flex", sans-serif !important;
 }
 
@@ -294,10 +294,10 @@ li {
   background: rgba(18, 18, 18, 0.25);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 9px;
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
   z-index: 1;
   white-space: nowrap;
-  background: #f2f3f4;
+  background: #FFFFFF;
 }
 
 .headingImage {
@@ -324,21 +324,21 @@ li {
 }
 
 .skillsSection.section {
-  background-color: #f2f3f4;
-  color: #333333;
+  background-color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .statsSection h4 {
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .contactSection {
-  background-color: #f2f3f4 !important;
-  color: #333333 !important;
+  background-color: #FFFFFF !important;
+  color: rgba(0, 0, 0, 0.87) !important;
 }
 
 .statsSection {
-  background-color: #f2f3f4 !important;
+  background-color: #FFFFFF !important;
 }
 
 .skill {
@@ -370,7 +370,7 @@ li {
 }
 
 .chart .percent {
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
@@ -390,18 +390,18 @@ li {
   padding: 25px 35px;
   text-align: center;
   border-radius: 10px;
-  background: #f2f3f4;
+  background: #FFFFFF;
  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .squareContent h2 {
   font-size: 3.5rem;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .squareContent h3 {
@@ -411,11 +411,11 @@ li {
 }
 
 .squareContent h4 {
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .counter {
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .squareIcon {
@@ -438,7 +438,7 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
   transition: 0.75s ease-in-out;
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .downloadButton:hover {
@@ -478,7 +478,7 @@ svg {
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
   transition: 0.75s ease-in-out;
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .contactButton:hover {
@@ -518,11 +518,11 @@ svg {
 
 #navigation li {
   margin: 0 auto;
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 #navigation li a {
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
   font-size: 0.875rem !important;
 }
 
@@ -542,7 +542,7 @@ div#navbarNav.collapse.navbar-collapse {
 .loader {
   width: 100%;
   height: 100%;
-  background-color: #f2f3f4;
+  background-color: #FFFFFF;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -554,7 +554,7 @@ div#navbarNav.collapse.navbar-collapse {
   height: 100%;
   background: url(../img/Sphere_rotating_transparency.gif) center center
     no-repeat;
-  background-color: #f2f3f4;
+  background-color: #FFFFFF;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -569,7 +569,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 a {
