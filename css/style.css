@@ -423,8 +423,8 @@ svg {
   padding-left: 30px;
   z-index: 100;
   width: 100%;
-  background: rgba(255, 255, 255, 0.3);
-  border-bottom: 0.5px solid light grey;
+  background: #ffffff;
+  border-bottom: 0.5px solid grey;
   color: rgba(0, 0, 0, 0.87);
 }
 
