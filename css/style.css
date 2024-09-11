@@ -510,7 +510,7 @@ svg {
 }
 
 #navigation li a:hover {
-  text-decoration: underline double #00ADD8 1.5px;
+  text-decoration: underline solid #00ADD8 3px;
 }
 
 .fixedNav #navigation {
