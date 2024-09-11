@@ -416,7 +416,7 @@ li {
   margin-top: 20px;
   border-radius: 35px;
   background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 3px 22px 0 #00ADD8;
+  box-shadow: 0 3px 18px 0 #00ADD8;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
