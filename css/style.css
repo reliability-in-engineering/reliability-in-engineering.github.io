@@ -285,8 +285,8 @@ li {
   text-align: center;
   margin: 0 auto;
   width: 100%;
-  max-width: 540px;
-  padding: 14px 70px;
+  max-width: 400px;
+  padding: 12px 50px;
   background: rgba(18, 18, 18, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
@@ -415,7 +415,7 @@ li {
   margin-top: 20px;
   border-radius: 35px;
   background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 4px 12px 0 #00ADD8;
+  box-shadow: 0 4px 14px 0 #00ADD8;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -454,7 +454,7 @@ svg {
   margin-top: 20px;
   border-radius: 35px;
   background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 2px 16px 0 #00ADD8;
+  box-shadow: 0 4px 14px 0 #00ADD8;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
