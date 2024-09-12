@@ -80,7 +80,8 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 50vh;
+    margin: auto 0;
+    padding-top: 30vh;  
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
@@ -102,7 +103,8 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 50vh;
+    margin: auto 0;
+    padding-top: 30vh;  
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
@@ -151,7 +153,7 @@ li {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto 0;
-    /*padding-top: 40vh;*/  
+    padding-top: 30vh;  
   }
 
     .pdf-container {
@@ -163,16 +165,6 @@ li {
     justify-content: center;
     align-items: center;
     border: .1px solid transparent; /* Optional: To show boundaries */
-  }
-  .desktop-device {
-    display:none;
-  }
-
-  .mobile-device {
-    display:block;
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    padding: 0px 10px;
   }
   
   #about {
