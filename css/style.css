@@ -62,27 +62,6 @@ body {
     border: 1px solid #ccc; /* Optional: To show boundaries */
 }
 
-.desktop-device {
-    display:block;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.mobile-device {
-  display:none;
-}
-.desktop-device {
-    display:block;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.mobile-device {
-  display:none;
-}
-
 p {
   font-size: 1rem;
   line-height: 1.6;
