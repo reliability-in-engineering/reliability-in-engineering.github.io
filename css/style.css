@@ -1,7 +1,7 @@
 body {
   color: #ffffff;
   background-color: #121212 !important;
-  font-family: "Roboto Flex", sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 .roboto-flex-font {
@@ -150,6 +150,7 @@ li {
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 0px !important;
   }
 
     .pdf-container {
