@@ -300,7 +300,7 @@ li {
   font-style: normal;
 }
 .section {
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 
 .aboutImage {
@@ -474,7 +474,6 @@ svg {
 }
 .section .heading {
   text-align: center;
-  padding-bottom: 40px;
   width: 100%;
 }
 /****************************************      NavBar     **************************************************/
