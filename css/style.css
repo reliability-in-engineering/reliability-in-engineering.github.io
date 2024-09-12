@@ -285,8 +285,8 @@ li {
   text-align: center;
   margin: 0 auto;
   width: 100%;
-  max-width: 400px;
-  padding: 12px 50px;
+  max-width: 500px;
+  padding: 10px 70px;
   background: rgba(18, 18, 18, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7px);
