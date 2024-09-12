@@ -455,7 +455,7 @@ svg {
   margin-left: 30%;
   margin-right: 30%;
   padding-right: 2%;
-  padding-left: 3%;
+  padding-left: 2%;
   z-index: 100;
   width: 100%;
   max-width: 40vw;
@@ -465,8 +465,8 @@ svg {
   /* fallback for old browsers */
   -webkit-backdrop-filter: blur(10px);
   border: 0.25px solid rgba(255, 255, 255, 0.2);
-  padding-top: 3px !important;
-  padding-bottom: 3px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
 }
 
 #navigation li {
