@@ -457,6 +457,7 @@ svg {
   z-index: 100;
   width: 100%;
   max-width: 40vw;
+  min-width: 470px;
   border-radius: 45px;
   background: rgba(39, 39, 39, 0.1);
   backdrop-filter: blur(10px);
@@ -479,12 +480,7 @@ svg {
 }
 
 #navigation li a:hover {
-  /*text-decoration: underline solid #00ADD8 2px;*/
-  background: url(../img/go.png) center center;
-  max-height: 10px;
-  z-index: 1;
-  width: 100%;
-  height: auto;
+  text-decoration: underline solid #00ADD8 2px;
 }
 
 .fixedNav #navigation {
@@ -503,7 +499,6 @@ div#navbarNav.collapse.navbar-collapse {
     padding-bottom: 0px !important;
 }
 .navbar-brand {
-  margin: 0 auto;
   margin-right: 0px !important;
 }
 
