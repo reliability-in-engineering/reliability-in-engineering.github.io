@@ -199,7 +199,7 @@ li {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .navbar-toggler-icon {
+  .-toggler-icon {
     border-color: #ffffff;
     color: #ffffff;
   }
@@ -453,7 +453,7 @@ svg {
   margin-left: 30%;
   margin-right: 30%;
   padding-right: 2%;
-  padding-left: 1.75%;
+  padding-left: 1.5%;
   z-index: 100;
   width: 100%;
   max-width: 40vw;
@@ -479,7 +479,12 @@ svg {
 }
 
 #navigation li a:hover {
-  text-decoration: underline solid #00ADD8 2px;
+  /*text-decoration: underline solid #00ADD8 2px;*/
+  background: url(../img/go.png) center center;
+  max-height: 10px;
+  z-index: 1;
+  width: 100%;
+  height: auto;
 }
 
 .fixedNav #navigation {
@@ -496,6 +501,10 @@ div#navbarNav.collapse.navbar-collapse {
     width: auto;  /* Keeps the aspect ratio of the logo */
     padding-top: 0px !important;
     padding-bottom: 0px !important;
+}
+.navbar-brand {
+  margin: 0 auto;
+  margin-right: 0px !important;
 }
 
 .img-responsive {
@@ -536,7 +545,7 @@ h6 {
 }
 
 a {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 
