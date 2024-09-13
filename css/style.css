@@ -199,10 +199,11 @@ li {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .-toggler-icon {
-    border-color: #ffffff;
-    color: #ffffff;
-  }
+  .toggler-icon {
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000;
+  } 
   .text-box {
     max-width: 95vw;
     width: 100%;
@@ -225,17 +226,11 @@ li {
     padding: 10px 10px !important;
     z-index: 100;
     width: 100% !important;
-    background: rgba(39, 39, 39, 0.1);
-    backdrop-filter: blur(60px);
-    /* fallback for old browsers */
-    -webkit-backdrop-filter: blur(60px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+    background: transparent !important;
     margin-top: 0% !important;
     margin-left: 0% !important;
     margin-right: 0% !important;
     z-index: 100;
-    border-radius: 0px !important;
     max-width: 100vw !important;
   }
   .fixedNav #navigation {
