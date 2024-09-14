@@ -262,6 +262,9 @@ li {
     position: fixed;
     top: 0;
   }
+  ul {
+    padding-left: 0px !important;
+  }
 }
 
 .flex-container {
