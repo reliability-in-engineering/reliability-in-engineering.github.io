@@ -74,13 +74,13 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 li {
-  font-size: 1rem;
+  font-size: 1.125rem;
   margin-bottom: 10px;
 }
 
@@ -91,7 +91,6 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 50vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
@@ -113,7 +112,6 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 50vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
@@ -160,7 +158,6 @@ li {
   }
   .mobile-image {
     display: block;
-    padding-top: 30vh;
     width: 100%; /* Make the image responsive */
     height: auto;
     padding-left: 10px;
