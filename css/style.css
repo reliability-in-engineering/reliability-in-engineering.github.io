@@ -149,6 +149,9 @@ li {
     width: 100%; /* Make the image responsive */
     height: auto;
   }
+  ul {
+     padding-left: 5px !important;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -263,7 +266,7 @@ li {
     top: 0;
   }
   ul {
-    padding-left: 0px !important;
+     padding-left: 5px !important;
   }
 }
 
