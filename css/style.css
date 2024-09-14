@@ -577,7 +577,7 @@ div#navbarNav.collapse.navbar-collapse {
 .loader {
   width: 100%;
   height: 100%;
-  background-color: #121212;
+  background-color: #000000;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -587,10 +587,12 @@ div#navbarNav.collapse.navbar-collapse {
 .loader .inner {
   width: 100%;
   height: 100%;
-  background-color: #121212;
+  background: url(../img/Sphere_rotating_transparency.gif) center center no-repeat;
+  background-color: #000000;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 div.skill {
   margin-top: 20px;
 }
