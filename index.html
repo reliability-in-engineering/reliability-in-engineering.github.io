@@ -15,9 +15,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon"  href="img/joe-mendez-hughes-data-engineer-favicon-color.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/c75a0766ea.js" crossorigin="anonymous"></script>
@@ -30,26 +33,23 @@
     </div>
     <div id="slides">
         <div class="landing-image-container">
-			<img src="img/background-navbar.webp" alt="Joe Mendez-Hughes Logo" class="landing-image desktop-image">
-        	<img src="img/background-navbar.webp" alt="Joe Mendez-Hughes Logo" class="landing-image mobile-image">
-		</div>
-	</div>
-        <div class="titleMessage">
-            <div class="heading">
-                <div style="color: #00add8;" class="arrow bounce">
-                    <i class="fa fa-arrow-down fa-2x" href="#about"></i>
-                </div>
-            </div>
+            <img src="img/background-navbar.webp" alt="Joe Mendez-Hughes Logo" class="landing-image desktop-image">
+            <img src="img/background-navbar.webp" alt="Joe Mendez-Hughes Logo" class="landing-image mobile-image">
         </div>
     </div>
+    <div class="titleMessage">
+        <div class="arrow">
+            <span></span>
+        </div>
 
-<nav id="navigation" class="navbar navbar-expand-lg navbar-dark">
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid align-items-center">
             <a class="navbar-brand" href="#">
-                <img src="img/gowithjoe_transparent.webp" class="img-responsive"
-                    alt="NavBar Logo">
+                <img src="img/gowithjoe_transparent.webp" class="img-responsive" alt="NavBar Logo">
             </a>
-         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -81,66 +81,76 @@
                 <div class="col-12">
                     <h3 class="text-box">About</h3>
                 </div>
-                <div class="col-12" style="margin-top: 40px;">
+                <div class="col-12" style="margin-top: 40px; ">
 
-			<p>In today’s fast-paced digital landscape, organizations rely on a complex array of technologies, APIs, databases,
-			and processes that can be difficult to manage. The rapid growth of data, increased site traffic, and rising competition
-			often give rise to issues such as poor data quality, inefficient pipelines, and security vulnerabilities. My expertise lies in addressing these critical challenges.</p>
+                    <p>In today’s fast-paced digital landscape, organizations rely on a complex array of technologies,
+                        APIs, databases,
+                        and processes that can be difficult to manage. The rapid growth of data, increased site traffic,
+                        and rising competition
+                        often give rise to issues such as poor data quality, inefficient pipelines, and security
+                        vulnerabilities. My expertise lies in addressing these critical challenges.</p>
 
-			<p>With years of experience in large-scale distributed systems, software development, and web applications, I have honed my skills in designing and
-			implementing scalable architectures and efficient, reliable solutions. Proficient in a range of technologies including Go, React, Node.js,
-			and various database platforms, I’m well-versed in navigating the most intricate technical environments.</p>
+                    <p>With years of experience in large-scale distributed systems, software development, and web
+                        applications, I have honed my skills in designing and
+                        implementing scalable architectures and efficient, reliable solutions. Proficient in a range of
+                        technologies including Go, React, Node.js,
+                        and various database platforms, I’m well-versed in navigating the most intricate technical
+                        environments.</p>
 
-			<p>Feel free to explore my website to learn more about my expertise, past projects, and how I can help your business overcome its toughest challenges.</p>
+                    <p>Feel free to explore my website to learn more about my expertise, past projects, and how I can
+                        help your business overcome its toughest challenges.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section statsSection" style="border: 1px #1334D6; border-style: solid none;">
-        <div class="container text-center">
+    <div id="gap" class="container-fluid"></div>
+    <section id="numbers" class="section statsSection">
+        <div class="background-container"><img src="img/google-deplot.webp"></div>
+        <div class="container text-center" style="z-index: 50;">
             <h3 class="text-box">Numbers</h3>
             <div class="row">
-                <div class="col">
+                <div class="col-md-4">
                     <div class="squareItem">
-                        <div class="squareInnerContainer" style="height: 300px;">
+                        <div class="squareInnerContainer" style="height: 300px; min-width: 210px;">
                             <div class="squareIcon">
                                 <i class="fa-solid fa-calendar-days" style="color: #00ADD8;"></i>
                             </div>
                             <div class="squareContent" style="color: #ffffff">
-                                <h4>I have over</h4>
+                                <h5>I have over</h5>
                                 <div class="counter" style="font-size: 30px; margin: 10px">7</div>
-                                <h4>years of experience</h4>
+                                <h5>years of experience</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <div class="squareItem">
-                        <div class="squareInnerContainer" style="height: 300px;">
+                        <div class="squareInnerContainer" style="height: 300px; min-width: 210px;">
                             <div class="squareIcon">
                                 <i class="fa-solid fa-users" style="color: #00ADD8;"></i>
                             </div>
                             <div class="squareContent" style="color: #ffffff">
-                                <h4>working on applications that have reached over</h4>
+                                <h5>working on applications that have reached over</h5>
                                 <div class="counter"
                                     style="font-size: 22px; margin-top: 15px; margin-bottom: 20px; margin-left: auto; margin-right: auto;">
                                     10000000</div>
-                                <h4>users</h4>
+                                <h5>users</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-		<div class="col">
+                <div class="col-md-4">
                     <div class="squareItem">
-                        <div class="squareInnerContainer" style="height: 300px;">
+                        <div class="squareInnerContainer" style="height: 300px; min-width: 210px;">
                             <div class="squareIcon">
                                 <i class="fa-solid fa-earth-americas" style="color: #00ADD8;"></i>
                             </div>
                             <div class="squareContent" style="color: #ffffff">
-                                <h4>in over</h4>
+                                <h5>in over</h5>
                                 <div class="counter"
-                                    style="font-size: 22px; margin-top: 15px; margin-bottom: 20px; margin-left: auto; margin-right: auto;">26</div>
-                                <h4>countries!</h4>
+                                    style="font-size: 22px; margin-top: 15px; margin-bottom: 20px; margin-left: auto; margin-right: auto;">
+                                    26</div>
+                                <h5>countries!</h5>
                             </div>
                         </div>
                     </div>
@@ -148,13 +158,11 @@
             </div>
         </div>
     </section>
-
+    <div id="gap" class="container-fluid"></div>
     <section id="skills" class="skillsSection section">
-
-        <div class="container">
-
-            <div class="row">
-
+        <div class="skills-container"><img src="img/underlay.webp"></div>
+        <div class="container" style="z-index: 50;">
+            <div class="row" style="z-index: 50;">
                 <div class="col-md-12 text-center">
                     <div class="slides-container">
                         <h3 class="text-box">Skills</h3>
@@ -162,72 +170,79 @@
                     <h5 style="margin-top: 40px;">Swipe left or right</h>
                 </div>
                 <div class="owl-carousel owl-theme">
-                    <div class="skill">
+                    <div class="skill" style="z-index: 50;">
                         <span class="chart">
                             <img class="manImg" src="img/go.png" style="height: 140px">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Go</h5>
                     </div>
-		     <div class="skill">
+                    <div class="skill">
                         <span class="chart">
-                            <img class="manImg" src="img/python-logo-only.svg" style="margin: 0 auto; height: 140px; width: auto; margin-top: 15px;">
+                            <img class="manImg" src="img/python-logo-only.svg"
+                                style="margin: 0 auto; height: 140px; width: auto; margin-top: 15px;">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Python</h5>
                     </div>
                     <div class="skill">
                         <span class="chart">
-                            <img class="manImg" src="img/kubernetes.png" style="height: 140px; width: auto;margin: 0 auto;">
+                            <img class="manImg" src="img/kubernetes.png"
+                                style="height: 140px; width: auto;margin: 0 auto;">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Kubernetes</h5>
                     </div>
-		    <div class="skill">
+                    <div class="skill">
                         <span class="chart">
-                            <img class="manImg" src="img/Moby-logo.webp" style="height: 110px; width: auto; margin: 0 auto; padding-top: 15px">
+                            <img class="manImg" src="img/Moby-logo.webp"
+                                style="height: 110px; width: auto; margin: 0 auto; padding-top: 15px">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Docker</h5>
                     </div>
                     <div class="skill">
                         <span class="chart" style="margin: 0 auto;">
-                            <img class="manImg" src="img/grpc-logo.png"style="margin: 0 auto; padding-top: 35px">
+                            <img class="manImg" src="img/grpc-logo.png" style="margin: 0 auto; padding-top: 35px">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>gRPC</h5>
                     </div>
                     <div class="skill">
                         <span class="chart">
-                            <img class="manImg" src="img/postgresql.png" style="margin: 0 auto; height: 140px; width: auto;">
+                            <img class="manImg" src="img/postgresql.png"
+                                style="margin: 0 auto; height: 140px; width: auto;">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>PostgreSQL</h5>
                     </div>
-		<div class="skill">
-                	<span class="chart">
-		                <img class="manImg" src="img/api.svg" style="height: 140px; margin: 0 auto;">
-		                <canvas height="180" width="152" align="center"></canvas>
-               		</span>
-               		<h5>APIs</h5>
-                </div>
                     <div class="skill">
-                        <span class="chart" >
-                            <img class="manImg" src="img/pngwing.com.png" style=" padding-top: 35px; margin: 0 auto;  width: 140px; height: auto;">
+                        <span class="chart">
+                            <img class="manImg" src="img/api.svg" style="height: 140px; margin: 0 auto;">
+                            <canvas height="180" width="152" align="center"></canvas>
+                        </span>
+                        <h5>APIs</h5>
+                    </div>
+                    <div class="skill">
+                        <span class="chart">
+                            <img class="manImg" src="img/pngwing.com.png"
+                                style=" padding-top: 35px; margin: 0 auto;  width: 140px; height: auto;">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Amazon Web Services</h5>
                     </div>
                     <div class="skill">
                         <span class="chart">
-                            <img class="manImg" src="img/gcp-logo-cloud.png" style="padding-top: 15px; margin: 0 auto; width: 140px;">
+                            <img class="manImg" src="img/gcp-logo-cloud.png"
+                                style="padding-top: 15px; margin: 0 auto; width: 140px;">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Google Cloud Platform</h5>
                     </div>
-                     <div class="skill">
+                    <div class="skill">
                         <span class="chart">
-                            <img class="manImg" src="img/azure.svg_.png" style="height: 130px; width: auto; margin: 0 auto;">
+                            <img class="manImg" src="img/azure.svg_.png"
+                                style="height: 130px; width: auto; margin: 0 auto;">
                             <canvas height="180" width="152" align="center"></canvas>
                         </span>
                         <h5>Azure</h5>
@@ -240,100 +255,147 @@
         </div>
 
     </section>
-
-<section id="work" class="section" style="border: 1px #1334D6; border-style: solid none;">
-<div class="container">
-	<div class="heading text-center">
-		<h3 class="text-box">Experience</h3>
-	</div>
-	<div class="resume-section" style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #00ADD8;">
-	  <h6 class="heading-section">SENIOR BACKEND ENGINEER</h6>
-	  <h6 class="heading-section"><i>Dynamo Technologies, Washington, DC</i></h6>
-	  <h6 class="heading-section">June 2023 - May 2024</h6>
-	  <ul>
-	    <li>Architected and maintained scalable microservices using Go and gRPC, improving system efficiency and reducing latency by 25%.</li>
-	    <li>Implemented efficient concurrency models using goroutines to process large datasets in parallel, reducing processing time by 35%.</li>
-	    <li>Led the integration of third-party APIs, creating efficient and secure communication layers to expand the platform's capabilities.</li>
-	    <li>Collaborated with DevOps to containerize services using Docker and managed deployment with Kubernetes for improved scalability and resource management.</li>
-	    <li>Optimized SQL databases, implementing performance improvements that reduced query times by 40%.</li>
-	  </ul>
-	</div>
-
-	<div class="resume-section" style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #00ADD8;">
-	  <h6 class="heading-section">SENIOR BACKEND ENGINEER</h6>
-	  <h6 class="heading-section"><i>Deep Cloud IQ, New York, NY</i></h6>
-	  <h6 class="heading-section">July 2021 - September 2023</h6>
-	  <ul>
-	    <li>Designed and implemented highly scalable backend services using Go, leveraging goroutines and concurrency to improve performance by 30%.</li>
-	    <li>Implemented gRPC-based communication protocols between microservices, reducing overhead and improving system performance.</li>
-	    <li>Collaborated with cross-functional teams to integrate business logic into cloud-based applications using Azure and SQL.</li>
-	    <li>Engineered secure, scalable REST APIs to support real-time data exchange and reporting features.</li>
-	    <li>Wrote extensive unit and integration tests, improving test coverage and reducing production issues significantly.</li>
-	  </ul>
-	</div>
-
-	<div class="resume-section" style="margin-top: 20px; padding-bottom: 10px; border-bottom: solid 5px #00ADD8;">
-	  <h6 class="heading-section">SOFTWARE ENGINEER</h6>
-	  <h6 class="heading-section"><i>Millennial Shift, Phoenix, AZ</i></h6>
-	  <h6 class="heading-section">October 2020 - June 2021</h6>
-		<ul>
-		    <li>Developed efficient and scalable SOAP and RESTful APIs, ensuring seamless communication between systems and improving overall performance.</li>
-		    <li>Engineered scalable and secure solutions, safeguarding sensitive data for the first, third, and fifth-largest wholesale insurance companies in the U.S.</li>
-		    <li>Analyzed, debugged, and optimized complex software systems, improving system stability and performance.</li>
-		    <li>Ensured data integrity and quality by implementing error-handling mechanisms and validation routines.</li>
-		    <li>Collaborated with frontend and DevOps teams to ensure seamless integration and deployment of backend services in a microservices architecture.</li>
-		</ul
-	</div>
-
-	<div class="resume-section" style="margin-top: 20px; padding-bottom: 10px; /* border-bottom: solid 5px #00ADD8; */ ">
-	  <h6 class="heading-section">JUNIOR SOFTWARE ENGINEER</h6>
-	  <h6 class="heading-section"><i>Prizelogic, Scottsdale, AZ</i></h6>
-	  <h6 class="heading-section">February 2018 - May 2020</h6>
-		<ul>
-		    <li>Collaborated closely with cross-functional teams to design and implement secure solutions for efficient data processing and management.</li>
-		    <li>Performed thorough debugging and optimization, identifying and resolving system bugs to enhance overall software reliability.</li>
-		    <li>Worked closely with senior engineers to design and optimize microservices architecture for high-performance applications.</li>
-		    <li>Developed and implemented scalable solutions to streamline data workflows, ensuring consistency and efficiency across systems.</li>
-		    <li>Gained hands-on experience with Docker and Kubernetes for containerizing applications and managing distributed services.</li>
-		</ul>
-	</div>
-</div>
-</section>
-<section id="resume">
-    <div class="container text-center" style="padding-top: 20px; padding-bottom: 20px;">
-        <div class="col-12" style="margin-top: 30px; margin-bottom: 40px;">
-            <h3 class="text-box">Resume</h3>
-        </div>
-        <div class="pdf-container">
-            <iframe src="img/Joe Mendez-Hughes Resume.pdf" class="resume-image desktop-device" frameborder="0" alt="Joe Mendez-Hughes Resume.pdf"></iframe>
-            <img src="img/Joe Mendez-Hughes Resume.jpg"  class="resume-image mobile-device" alt="Joe Mendez-Hughes Resume Image">
-        </div>
-        <div class="col-12" style="margin: 0 auto;">
-            <a href="img/Joe Mendez-Hughes Resume.docx" download class="downloadButton" style="margin-top: 30px;">Download</a>
-            <h6 style="margin: 20px;"><i>Download Joe's Resume as a Word .docx file</i></h6>
-        </div>
-    </div>
-</section>
-    <section id="contact" class="contactSection section" style=" border: 1px #1334D6; border-style: solid none;">
-        <div class="container text-center">
-            <div class="heading">
-                <h3 class="text-box">Contact</h3>
-                <a href="mailto:joemendezhughes@gmail.com" email class="contactButton" style="margin-top: 50px;">Email</a>
-                <h5 style="margin-top: 45px; color: #ffffff">Get in touch!</i></h5>
+    <div id="gap" class="container-fluid"></div>
+    <section id="work" class="section">
+        <div class="experience-image-container "><img src="img/rag.webp"></div>
+        <div class="container">
+            <div class="heading text-center">
+                <h3 class="text-box">Experience</h3>
             </div>
         </div>
     </section>
-     <section id="thanks" class="thanksSection section" style="padding-bottom: 0px !important;">
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="container"
+            style="border: 2px #00ADD8; border-style: solid none; padding-top: 10px; padding-bottom: 10px; z-index: 50;">
+            <h5 class="heading-section">SENIOR BACKEND ENGINEER</h5>
+            <h5 class="heading-section"><i>Dynamo Technologies, Washington, DC</i></h5>
+            <h5 class="heading-section">June 2023 - May 2024</h5>
+            <ul>
+                <li>Architected and maintained scalable microservices using Go and gRPC, improving system efficiency
+                    and reducing latency by 25%.</li>
+                <li>Implemented efficient concurrency models using goroutines to process large datasets in parallel,
+                    reducing processing time by 35%.</li>
+                <li>Led the integration of third-party APIs, creating efficient and secure communication layers to
+                    expand the platform's capabilities.</li>
+                <li>Collaborated with DevOps to containerize services using Docker and managed deployment with
+                    Kubernetes for improved scalability and resource management.</li>
+                <li>Optimized SQL databases, implementing performance improvements that reduced query times by 40%.
+                </li>
+            </ul>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="container"
+            style="border: 2px #00ADD8; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
+            <h5 class="heading-section">SENIOR BACKEND ENGINEER</h5>
+            <h5 class="heading-section"><i>Deep Cloud IQ, New York, NY</i></h5>
+            <h5 class="heading-section">July 2021 - September 2023</h5>
+            <ul>
+                <li>Designed and implemented highly scalable backend services using Go, leveraging goroutines and
+                    concurrency to improve performance by 30%.</li>
+                <li>Implemented gRPC-based communication protocols between microservices, reducing overhead and
+                    improving system performance.</li>
+                <li>Collaborated with cross-functional teams to integrate business logic into cloud-based
+                    applications using Azure and SQL.</li>
+                <li>Engineered secure, scalable REST APIs to support real-time data exchange and reporting features.
+                </li>
+                <li>Wrote extensive unit and integration tests, improving test coverage and reducing production
+                    issues significantly.</li>
+            </ul>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="container"
+            style="border: 2px #00ADD8; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
+            <h5 class="heading-section">SOFTWARE ENGINEER</h5>
+            <h5 class="heading-section"><i>Millennial Shift, Phoenix, AZ</i></h5>
+            <h5 class="heading-section">October 2020 - June 2021</h5>
+            <ul>
+                <li>Developed efficient and scalable SOAP and RESTful APIs, ensuring seamless communication between
+                    systems and improving overall performance.</li>
+                <li>Engineered scalable and secure solutions, safeguarding sensitive data for the first, third, and
+                    fifth-largest wholesale insurance companies in the U.S.</li>
+                <li>Analyzed, debugged, and optimized complex software systems, improving system stability and
+                    performance.</li>
+                <li>Ensured data integrity and quality by implementing error-handling mechanisms and validation
+                    routines.</li>
+                <li>Collaborated with frontend and DevOps teams to ensure seamless integration and deployment of
+                    backend services in a microservices architecture.</li>
+            </ul>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="container"
+            style="border: 2px #00ADD8; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
+            <h5 class="heading-section">JUNIOR SOFTWARE ENGINEER</h5>
+            <h5 class="heading-section"><i>Prizelogic, Scottsdale, AZ</i></h5>
+            <h5 class="heading-section">February 2018 - May 2020</h5>
+            <ul>
+                <li>Collaborated closely with cross-functional teams to design and implement secure solutions
+                    for efficient data processing and management.</li>
+                <li>Performed thorough debugging and optimization, identifying and resolving system bugs to
+                    enhance overall software reliability.</li>
+                <li>Worked closely with senior engineers to design and optimize microservices architecture for
+                    high-performance applications.</li>
+                <li>Developed and implemented scalable solutions to streamline data workflows, ensuring
+                    consistency and efficiency across systems.</li>
+                <li>Gained hands-on experience with Docker and Kubernetes for containerizing applications and
+                    managing distributed services.</li>
+            </ul>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section id="resume">
+        <div class="resume-image-container"><img src="img/nv-embed-v1.webp"></div>
+        <div class="container text-center" style="padding-bottom: 20px; z-index: 50;">
+            <div class="col-12" style="margin-top: 30px; margin-bottom: 40px; z-index: 50;">
+                <h3 class="text-box">Resume</h3>
+            </div>
+            <div class="pdf-container">
+                <iframe src="img/Joe Mendez-Hughes Resume.pdf" class="resume-image desktop-device" frameborder="0"
+                    alt="Joe Mendez-Hughes Resume.pdf"></iframe>
+                <img src="img/Joe Mendez-Hughes Resume.jpg" class="resume-image mobile-device"
+                    alt="Joe Mendez-Hughes Resume Image">
+            </div>
+            <div class="col-12" style="margin: 0 auto;">
+                <a href="img/Joe Mendez-Hughes Resume.docx" download class="downloadButton"
+                    style="margin-top: 30px;">Download</a>
+                <h6 style="margin: 20px;"><i>Download Joe's Resume as a Word .docx file</i></h6>
+            </div>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section id="contact" class="contactSection section">
+        <div class="message-container"><img src="img/via-microservices-featured-Photoroom.png"></div>
+        <div class="container text-center">
+            <div class="heading">
+                <h3 class="text-box">Contact</h3>
+                <a href="mailto:joemendezhughes@gmail.com" email class="contactButton"
+                    style="margin-top: 50px;">Email</a>
+                <h4 style="margin-top: 45px; color: #ffffff">Get in touch!</i></h4>
+            </div>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section id="thanks" class="thanksSection section" style="padding-bottom: 0px !important;">
         <div class="thanks-container">
-                <img src="img/background-navbar.webp" alt="Logo">
+            <img src="img/background-navbar.webp" alt="Logo">
         </div>
         <div class="container text-center quote">
             <h5 class="quote" style="padding-top: 30px;">Dear Guest,<br>
-                Thank you for visiting my website! I truly appreciate your time and interest, and I look forward to connecting with you soon!</h5>
-            <p style="color: #999999; margin-top: 50px; font-size: 0.813rem; font-family: sans-serif;">&copy;2024 Joe Mendez-Hughes</p>
+                Thank you for visiting my website! I truly appreciate your time and interest, and I look forward to
+                connecting with you soon!</h5>
+            <p
+                style="color: #999999; padding-top: 50px; margin-top: 0.813rem; margin-bottom: 0px !important; font-family: sans-serif;">
+                &copy;2024
+                Joe
+                Mendez-Hughes</p>
         </div>
     </section>
-
+    <div id="gap" class="container-fluid"></div>
 
     <script src="js/countUp.js"></script>
     <script src="js/countUp-jquery.js"></script>
