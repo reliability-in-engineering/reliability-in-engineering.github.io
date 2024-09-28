@@ -907,29 +907,27 @@ canvas {
 
 /*********************************************      Buttons       ********************************/
 .downloadButton {
-  color:  #FFFFFF;
+  color: #ffffff;
   font-size: 1.275rem;
-  font-weight: 500;
-  padding: 0.6rem 2.2rem;
+  font-weight: 400;
+  padding: 0.6rem 1.95rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
   background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 5px 12px 0 #00ADD8;
+  box-shadow: 0 4px 12px 0 #00ADD8;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 .downloadButton:hover {
-  transition: 2s ease-in-out;
+  transition: 0.75s ease-in-out;
   background: #00ADD8;
-  color: #000;
-  box-shadow: 0 5px 15px 0 #00ADD8;
+  color: #fff;
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.55);
 }
 
 .downloadButton:hover svg {
@@ -944,33 +942,31 @@ svg {
   stroke: #fff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
-  transition: 1.50s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 .contactButton {
-  color:  #FFF;
+  color: #ffffff;
   font-size: 1.275rem;
-  font-weight: 500;
-  padding: 0.6rem 2.2rem;
+  font-weight: 400;
+  padding: 0.6rem 1.95rem;
   display: inline-block;
   margin-top: 20px;
   border-radius: 35px;
   background: rgba(19, 52, 214, 0.15);
-  box-shadow: 0 5px 12px 0 #00ADD8;
+  box-shadow: 0 4px 14px 0 #00ADD8;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: none;
-  transition: .75s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 .contactButton:hover {
-  transition: 2.5s ease-in-out;
+  transition: 0.75s ease-in-out;
   background: #00ADD8;
-  color: #000;
-  box-shadow: 0 5px 15px 0 #00ADD8;
+  color: #fff;
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.55);
 }
 
 .contactButton:hover svg {
