@@ -1017,8 +1017,7 @@ box-shadow: 0 2px 10px 0 #1334D6;
 #navigation li a {
   color:  #FFFFFF;
   font-size: .875rem !important;
-
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #navigation li a:hover {
