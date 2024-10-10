@@ -23,7 +23,6 @@ body {
   margin: 0 auto;
 }
 
-
 .landing-image-container {
   position: relative;
   width: 100%;
@@ -79,14 +78,14 @@ body {
 }
 /*******************************************END********************************************/
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 20px;
   font-weight: 400;
 }
 
 li {
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin-bottom: 10px;
   font-weight: 400;
 }
