@@ -896,7 +896,7 @@ canvas {
 /*********************************************      Buttons       ********************************/
 .downloadButton {
   color: #ffffff;
-  font-size: 1.75rem;
+  font-size: .850rem;
   font-weight: 400;
   padding: 0.6rem 1.95rem;
   display: inline-block;
@@ -937,7 +937,7 @@ svg {
 
 .contactButton {
   color: #ffffff;
-  font-size: 1.75rem;
+  font-size: .850rem;
   font-weight: 400;
   padding: 0.6rem 1.95rem;
   display: inline-block;
