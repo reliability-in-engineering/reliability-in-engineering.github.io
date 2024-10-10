@@ -7,31 +7,17 @@
 
 body {
   background-color: rgb(51 51 51) !important;
-  font-family: "Roboto Flex", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
   padding-left: 48px;
   padding-right: 48px;
 
 }
-
-.roboto-flex-font {
-  font-family: "Roboto Flex", sans-serif;
+.inter-font {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100,
-    "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
-    "YTLC" 514,
-    "YTUC" 712;
 }
-
 
 #document {
   margin: 0 auto;
