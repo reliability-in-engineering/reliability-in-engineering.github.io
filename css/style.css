@@ -220,22 +220,20 @@ li {
     padding-top: 1px !important;
     padding-bottom: 1px !important;
   }
+  .downloadButton { 
+  background: #00CC66 !important;
+  color: #000000 !important;
+  box-shadow: 0 0 0 0 #00CC66 !important;
+  text-decoration: none !important;
+  border: 0.25px solid transparent !important;
+}
 .contactButton {
-  transition: 0.75s ease-in-out;
-  background: #00CC66;
-  color: #000000;
-  box-shadow: 0 0 0 0 #00CC66;
-  text-decoration: none;
-  border: 0.25px solid transparent;
-}
-.downloadButton {
-  transition: 0.75s ease-in-out;
-  background: #00CC66;
-  color: #000000;
-  box-shadow: 0 0 0 0 #00CC66;
-  text-decoration: none;
-  border: 0.25px solid transparent;
-}
+  background: #00CC66 !important;
+  color: #000000 !important;
+  box-shadow: 0 0 0 0 #00CC66 !important;
+  text-decoration: none !important;
+  border: 0.25px solid transparent !important;
+  }
 }
 /*******************************************END********************************************/
 
@@ -243,7 +241,6 @@ li {
 @media only screen and (max-width: 576px) {
   body {
     background-color: rgb(51 51 51) !important;
-    font-family: "Fira Sans", sans-serif !important;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -265,6 +262,18 @@ li {
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .email-container {
+    display: none;
+  }
+
+  .background-container {
+    display: none;
+  }
+
+  .experience-image-container {
+    display: none;
   }
 
   #navbar .navbar.navbar-expand-lg.navbar-dark {
@@ -318,18 +327,17 @@ li {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .navbar-toggler-icon {
-    border-color: rgb(12 12 12) (12 12 12);
-    color: rgb(12 12 12) (12 12 12);
-  }
+
   .text-box {
     max-width: 95vw;
     width: 100%;
     border-radius: 30px !important;
+    z-index: 100;
   }
   .text-box2 {
     max-width: 95vw;
     width: 100%;
+    z-index: 100;
   }
 
   div.thanks-container {
@@ -385,22 +393,20 @@ li {
     padding-top: 1px !important;
     padding-bottom: 3px !important;
   }
-  .contactButton {
-  transition: 0.75s ease-in-out;
-  background: #00CC66;
-  color: #000000;
-  box-shadow: 0 0 0 0 #00CC66;
-  text-decoration: none;
-  border: 0.25px solid transparent;
+.downloadButton { 
+  background: #00CC66 !important;
+  color: #000000 !important;
+  box-shadow: 0 0 0 0 #00CC66 !important;
+  text-decoration: none !important;
+  border: 0.25px solid transparent !important;
 }
-  .downloadButton {
-  transition: 0.75s ease-in-out;
-  background: #00CC66;
-  color: #000000;
-  box-shadow: 0 0 0 0 #00CC66;
-  text-decoration: none;
-  border: 0.25px solid transparent;
-}
+.contactButton {
+  background: #00CC66 !important;
+  color: #000000 !important;
+  box-shadow: 0 0 0 0 #00CC66 !important;
+  text-decoration: none !important;
+  border: 0.25px solid transparent !important;
+  }
 }
 /*******************************************END********************************************/
 
@@ -424,14 +430,13 @@ li {
   width: 100%;
   max-width: 540px;
   padding: 12px 50px;
-  background: rgba(18, 18, 18, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+  background: rgba(18, 18, 18, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border-radius: 0px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: rgb(12 12 12) (12 12 12);
-  z-index: 5;
+  border: 2px solid #00CC66;
+  color: #ffffff;
+  z-index: 100;
   white-space: nowrap;
   font-size: 1.75rem;
   font-weight: 500;
@@ -690,9 +695,9 @@ li {
   pointer-events: none; /* Prevent interactions with the image */
   position: absolute; /* So it can stretch behind everything */
   top: 0;
-  left: 55%;
-  width: 75%; /* Make the image span the entire width */
-  height: 100%; /* Make the image span the entire height */
+  left: 60%;
+  width: 60%; /* Make the image span the entire width */
+  height: auto; /* Make the image span the entire height */
   object-fit: cover; /* Ensures the image covers the section without distortion */
   object-position: center;
 }
@@ -867,7 +872,7 @@ li {
 }
 
 .thanks-container {
-  max-width: 20vw; /* Maximum width of the image container */
+  max-width: 30vw; /* Maximum width of the image container */
   margin: 0 auto;
 }
 
@@ -914,8 +919,8 @@ canvas {
   border-radius: 10px;
   background: rgba(19, 52, 214, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
@@ -972,20 +977,6 @@ canvas {
   border: 0.25px solid transparent;
 }
 
-.downloadButton:hover svg {
-  stroke-dashoffset: -480;
-}
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1.5s ease-in-out;
-}
 
 .contactButton {
   color: #fff;
@@ -1013,9 +1004,6 @@ svg {
   border: 0.25px solid transparent;
 }
 
-.contactButton:hover svg {
-  stroke-dashoffset: -480;
-}
 /*********************************************      End Buttons  **************** ********************************/
 
 /********************************************        NAVBAR       ************   ********************************/
@@ -1036,8 +1024,8 @@ svg {
   align-items: center;
   white-space: nowrap;
   padding-right: 20px;
-  padding-top: 0%;
-  padding-bottom: 0%;
+  padding-top: 0px;
+  padding-bottom: 2px;
 }
 
 #navigation li {
@@ -1065,9 +1053,9 @@ div#navbarNav.collapse.navbar-collapse {
 }
 
 .navbar-brand img {
-  max-height: 24px; /* Adjust the height of the logo */
+  max-height: 32px; /* Adjust the height of the logo */
   width: auto; /* Keeps the aspect ratio of the logo */
-  padding: 0px 4px;
+  padding: 0px 0px;
 }
 
 .img-responsive {
