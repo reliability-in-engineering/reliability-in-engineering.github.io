@@ -15,9 +15,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Anton&family=Mona+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/c75a0766ea.js" crossorigin="anonymous"></script>
@@ -28,28 +29,10 @@
     <div class="loader">
         <div class="inner"></div>
     </div>
-    <div id="slides">
-        <div class="landing-image-container">
-            <img src="img/landing.svg" alt="Joe Mendez-Hughes Logo"
-                class="landing-image desktop-image">
-            <img src="img/landing.svg" alt="Joe Mendez-Hughes Logo"
-                class="landing-image mobile-image">
-        </div>
-    </div>
-
-        <div class="titleMessage">
-            <div class="heading">
-                <div style="color: #00CC66;" class="arrow bounce">
-                    <i class="fa fa-arrow-down fa-2x" href="#about"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <nav id="navigation" class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid align-items-center">
             <a class="navbar-brand" href="#">
-                <img src="img/navbar.svg" class="img-responsive" alt="NavBar Logo">
+                <img src="img/navbar-image.svg" class="img-responsive" alt="NavBar Logo">
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,102 +48,63 @@
                     <a class="nav-link" href="#skills">SKILLS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#work">EXPERIENCE</a>
+                    <a class="nav-link" href="#experience">EXPERIENCE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#resume">RESUME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT</a>
+                    <a class="nav-link" href="#contact"><i class="fa-solid fa-envelope fa-lg" style="cursor:pointer; padding-right: 10px;"
+                            title="Contact"></i></a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <section id="about" class="section">
-        <div class="about-container"><img src="img/city.png"></div>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="text-box">Welcome!</h3>
-                </div>
-                <div class="col-12" style="margin-top: 40px;">
-
-                    <p>In today’s fast-paced digital landscape, organizations rely on a complex array of technologies,
-                        APIs, databases, and processes that can be difficult to manage. The rapid expansion of
-                        infrastructure, increased deployment frequency,
-                        and rising system complexity often lead to challenges like inefficient CI/CD processes,
-                        infrastructure scalability issues,
-                        and security vulnerabilities. My expertise lies in tackling these critical challenges
-                        effectively.
+        <div class="about-container" style="z-index: 0;"><img src="img/favicon.png"></div>
+        <div class="container-fluid">
+            <div class="title-container">
+                <h3 id="companionMethods" style="color: #fff; z-index: 500; margin-top: 20px;" class="text-box">Welcome</h3>
+            </div>
+            <div class="container text-center" style="z-index: 500;">
+                <div class="col-12" style="margin-top: 5%; margin-bottom: 10%;">
+                    <p>Hello, My name is Joe Mendez-Hughes and I am a
+                        dedicated DevOps Engineer with 7 years of professional experience in architecting CI/CD pipelines,
+                        working within cloud environments such as Azure and AWS, and building secure and reliable Kubernetes
+                         clusters and optimized Docker containers. I rely heavily on automation tools such as Ansible and
+                         Infrastructure-as-Code (IaC) tools such as Terraform, to create an environment ideal for fast iteration
+                         and seamless deployments.
                     </p>
-
-                    <p>With years of experience in large-scale distributed systems, DevOps, and platform engineering, I
-                        have honed my skills in designing and
-                        implementing scalable architectures and efficient, reliable platforms.
-                        I have worked in highly compliant environments where security and reliability was
-                        of the utmost importance, and start-ups where agility and innovation was key.
-                        Proficient in a range of
-                        technologies including Kubernetes, Docker, CI/CD pipelines, Infrastructure-as-Code, scripting,
-                        and various database platforms, I am well-versed in navigating the most intricate technical
-                        environments.
+                    <p>
+                        My main goal as a DevOps Engineer is to streamline the development process as much as possible,
+                        so teams can focus on the task-at-hand. I automate as much as I can and utilize IaC, so
+                        whether it's containers, the CI/CD pipeline, or repositories, these are taken care of and not a roadblock within the overall development process.
+                        This leaves the teams to focus on their tasks, and not worry about all the other things going on within the software development cycle.
                     </p>
-
-                    <p>Feel free to explore my website to learn more about my expertise, past projects, and how I can
-                        be a contributing asset to your team.
+                    <p>
+                        Explore onward to view my past work experiences, my skillset, and how you can get in touch with me now or in the future.
                     </p>
                 </div>
             </div>
         </div>
+        <div class="titleMessage">
+            <div style="color: #00CC66;" class="arrow bounce">
+                <i class="fa fa-arrow-down fa-2x" href="#about"></i>
+            </div>
+        </div>
     </section>
     <div id="gap" class="container-fluid"></div>
-    <section id="numbers" class="section statsSection">
-        <div class="background-container"><img src="img/numbersbumpers.webp"></div>
-        <div class="container text-center" style="z-index: 100;">
-            <h3 class="text-box">Numbers</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer" style="height: 300px; min-width: 210px;">
-                            <div class="squareIcon">
-                                <i class="fa-solid fa-calendar-days" style="color: #00CC66;"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h5>I have over</h5>
-                                <div class="counter" style="font-size: 1.875rem; margin: 10px">7</div>
-                                <h5>years of experience</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer" style="height: 300px; min-width: 210px;">
-                            <div class="squareIcon">
-                                <i class="fa-solid fa-users" style="color: #00CC66;"></i>
-                            </div>
-                            <div class="squareContent" >
-                                <h5>engineering applications that have reached over</h5>
-                                <div class="counter" style="font-size: 1.5rem; margin: 8px;">
-                                    10000000</div>
-                                <h5>users</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer" style="height: 300px; min-width: 210px;">
-                            <div class="squareIcon">
-                                <i class="fa-solid fa-earth-americas" style="color: #00CC66;"></i>
-                            </div>
-                            <div class="squareContent" >
-                                <h5>in over</h5>
-                                <div class="counter" style="font-size: 1.875rem; margin: 10px">
-                                    26</div>
-                                <h5>countries!</h5>
-                            </div>
-                        </div>
+    <section id="numbers" class="section statsSection" style="min-height: 240px;">
+        <div class="container-fluid">
+            <div class="title-container">
+                <h3 id="companiMethods" class="text-box" style="color: #000000 !important; font-size: 21vw;">Stats
+                </h3>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div>
+                        <p id="ooMethods"
+                            style="margin-left: 40px; color: #000 !important; font-size: 4vw; font-family: 'Anton', sans-serif;">
+                            I have over 7 years of experience working on applications that have reached over 10 million users in 26 countries.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -168,271 +112,305 @@
     </section>
     <div id="gap" class="container-fluid"></div>
     <section id="skills" class="skillsSection section">
-        <div class="container" style="z-index: 100;">
-            <div class="row" style="z-index: 100;">
-                <div class="col-md-12 text-center">
-                    <div class="slides-container">
-                        <h3 class="text-box">Skills</h3>
+        <div class="contact-container" style="z-index: 0;"><img src="img/skills_background.png"></div>
+        <div class="container-fluid">
+            <div class="title-container">
+                <h3 id="compaMethods" class="text-box">Skills</h3>
+            </div>
+            <div class="container text-center" style=" margin-top: 2%">
+                <div class="row" style="z-index: 50;">
+                    <div class="col-12">
+                        <h5> <i class="fa-solid fa-angle-left fa-1x"
+                                style="color: #00CC66; margin-right: 10px;"></i>Swipe left or right<i
+                                class="fa-solid fa-angle-right fa-1x" style="color: #00CC66; margin-left: 10px;"></i>
+                        </h5>
                     </div>
-                    <h5 style="margin-top: 30px; font-weight: 300;">Swipe left or right</h>
+                    <div class="owl-carousel owl-theme" style="margin-top: 5px;">
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/kubernetes.svg">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Kubernetes</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/Moby-logo.webp"
+                                    style="padding-top: 20px; width: auto; height: 145px; margin: auto;">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Docker</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/CI CD pipeline hexagon-2.webp" style="width: auto; height: 150px; margin: auto;">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>CI/CD</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/terraform.png" style="height: 140px; width: auto; padding-top: 15px; margin: 0 auto; margin-top: 10px !important">
+                                <canvas height="180" width="152" align="center" ></canvas>
+                            </span>
+                            <h5>Terraform</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/python-logo-only.svg"
+                                    style="margin: 0 auto; height: 150px; width: auto; margin-top: 15px;">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Python</h5>
+                        </div>
+                    </div>
+                    <div class="owl-carousel owl-theme" style="margin-top: 20px;">
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/pngwing.com.png"
+                                    style=" padding-top: 35px; margin: 0 auto;  width: 140px; height: auto; margin-top: 20px !important">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Amazon Web Services</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/azure.svg_.png"
+                                    style="height: 130px; width: auto; margin: 0 auto; margin-top: 20px !important">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Azure</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/jenkins.png" >
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Jenkins</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/gitlab.svg"
+                                    style="margin: 0 auto; height: 130px; width: auto; margin-top: 20px !important">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>GitLab</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/actions-icon-actions.svg"
+                                    style="margin: 0 auto; height: 130px; width: auto; margin-top: 20px !important">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>GitHub Actions</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" style="margin: 0 auto;">
+                                <img class="manImg" src="img/argo_cd.png" >
+                                <canvas height=" 180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Argo CD</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/prometheus.svg" style="height: 135px; margin-top: 20px !important">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Prometheus</h5>
+                        </div>
+                        <div class="skill">
+                            <span class="chart">
+                                <img class="manImg" src="img/grafana.svg" style="height: 135px; margin: 0 auto; margin-top: 20px !important">
+                                <canvas height="180" width="152" align="center"></canvas>
+                            </span>
+                            <h5>Grafana</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="owl-carousel owl-theme">
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/kubernetes.svg">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Kubernetes</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/Moby-logo.webp"
-                                style="padding-top: 20px; width: auto; height: 145px; margin: auto;">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Docker</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/CI CD pipeline hexagon-2.webp" style="width: auto; height: 150px; margin: auto;">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>CI/CD</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/terraform.png" style="height: 140px; width: auto; padding-top: 15px; margin: 0 auto; margin-top: 10px !important">
-                            <canvas height="180" width="152" align="center" ></canvas>
-                        </span>
-                        <h5>Terraform</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/pngwing.com.png"
-                                style=" padding-top: 35px; margin: 0 auto;  width: 140px; height: auto; margin-top: 20px !important">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Amazon Web Services</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/azure.svg_.png"
-                                style="height: 130px; width: auto; margin: 0 auto; margin-top: 20px !important">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Azure</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/jenkins.png" >
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Jenkins</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/gitlab.svg"
-                                style="margin: 0 auto; height: 130px; width: auto; margin-top: 20px !important">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>GitLab</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/actions-icon-actions.svg"
-                                style="margin: 0 auto; height: 130px; width: auto; margin-top: 20px !important">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>GitHub Actions</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart" style="margin: 0 auto;">
-                            <img class="manImg" src="img/argo_cd.png" >
-                            <canvas height=" 180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Argo CD</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/prometheus.svg" style="height: 135px; margin-top: 20px !important">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Prometheus</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/grafana.svg" style="height: 135px; margin: 0 auto; margin-top: 20px !important">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Grafana</h5>
-                    </div>
-                    <div class="skill">
-                        <span class="chart">
-                            <img class="manImg" src="img/python-logo-only.svg"
-                                style="margin: 0 auto; height: 150px; width: auto; margin-top: 15px;">
-                            <canvas height="180" width="152" align="center"></canvas>
-                        </span>
-                        <h5>Python</h5>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="gap" class="container-fluid"></div>
+    <div id="experience" class="title-container">
+        <h3 id="compMethods" class="text-box"
+            style="font-size: 20vw; color: #000000 !important; padding-bottom: 10px; padding-top: 10px;">Experience</h3>
+    </div>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="resume-image-container" style="z-index: 0 !important;"><img src="img/dynamo.png"></div>
+        <div class="resume-container" style="z-index: 500; ">
+            <h5 class="heading-section1" style="z-index: 500; text-shadow: 0 1px 0 black;">DevOps Engineer</h5>
+            <h5 class="heading-section" style="z-index: 500;">Dynamo Technologies, Washington, DC</h5>
+            <h5 class="heading-section" style="z-index: 500; margin-bottom: 30px;">September 2023 - May 2024</h5>
+            <li class="fixedWidth">
+                Set-up multi-cloud Kubernetes clusters in AWS and Azure, resulting in a 99.95% system availability.
+            </li>
+            <li class="fixedWidth">
+                Optimized Docker containers and images, boosting performance by 30%.
+            </li>
+            <li class="fixedWidth">
+                Utilized Terraform scripts to automate infrastructure and reduce deployment times by 40%.
+            </li>
+            <li class="fixedWidth">
+                Built CI/CD pipelines using Jenkins, GitHub Actions, and GitLab, reducing release times by 20%.
+            </li>
+            <li class="fixedWidth">
+                Implemented logging and monitoring with Prometheus and Grafana, improving system observability.
+            </li>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="resume-image-container" style="z-index: 1;"><img src="img/deepcloudiq.png"></div>
+        <div class="resume-container">
+            <h5 class="heading-section1">DevOps Engineer</h5>
+            <h5 class="heading-section">Deep Cloud IQ, New York, NY</h5>
+            <h5 class="heading-section" style="z-index: 500; margin-bottom: 30px;">July 2021 - September 2023</h5>
+            <li class="fixedWidth">
+                Utilized Terraform to build infrastructure on Azure, reducing setup times by 40%.
+            </li>
+            <li class="fixedWidth">
+                Implemented CI/CD pipelines with Azure DevOps, reducing deployment time to production by 20%.
+            </li>
+            <li class="fixedWidth">
+                Containerized application services with Docker, resulting in 25% faster deployments across all environments.
+            </li>
+            <li class="fixedWidth">
+                Orchestrated secure Kubernetes clusters on Azure, providing a 99.9% reliability rate.
+            </li>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="resume-image-container" style="z-index: 1;"><img src="img/mshiftblue.png"></div>
+        <div class="resume-container">
+            <h5 class="heading-section1">Software Engineer</h5>
+            <h5 class="heading-section">Millennial Shift, Phoenix, AZ</h5>
+            <h5 class="heading-section" style="z-index: 500; margin-bottom: 30px;">October 2020 - June 2021</h5>
+            <li class="fixedWidth">
+                Architected and developed secure, scalable REST and SOAP APIs and backend solutions for leading wholesale insurance companies.
+            </li>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="resume-image-container" style="z-index: 1;"><img src="img/prizelogic.png"></div>
+        <div class="resume-container">
+            <h5 class="heading-section1">Junior DevOps/Cloud Engineer</h5>
+            <h5 class="heading-section">Prizelogic, Scottsdale, AZ</h5>
+            <h5 class="heading-section" style="z-index: 500; margin-bottom: 30px;">February 2018 - May 2020</h5>
+            <li class="fixedWidth">
+                Worked closely alongside senior engineers to assist in the set-up and maintenance of CI/CD pipelines.
+            </li>
+            <li class="fixedWidth">
+                Optimized platform architecture, utilizing Docker and Kubernetes to efficiently containerize applications.
+            </li>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid"></div>
+    <section class="resume-section">
+        <div class="resume-image-container" style="z-index: 1;"><img src="img/background_jmh.png"></div>
+        <div class="resume-container">
+            <h5 class="heading-section1">App Founder</h5>
+            <h5 class="heading-section">Joe Mendez-Hughes, Las Vegas, NV</h5>
+            <h5 class="heading-section" style="z-index: 500; margin-bottom: 30px;">January 2017 - February 2018</h5>
+            <li class="fixedWidth">
+                Developed and published three 5-star iOS mobile applications downloaded in 26 countries, including an innovative
+                image recognition app powered by IBM's Watson.
+            </li>
+            <li class="fixedWidth">
+                Demonstrated entrepreneurial skills and end-to-end product development capabilities.
+            </li>
+        </div>
+    </section>
+    <div id="gap" class="container-fluid" style="display: none;"></div>
+    <section id="methodology" class="section" style="display:none ;">
+        <div class="contact-container"></div>
+        <div class="container-fluid">
+            <div class="title-container">
+                <h3 id="comMethods" class="text-box">Cyber</h3>
+            </div>
+            <div class="container text-center"
+                style="line-height: 50%; align-items: center; justify-content: center; text-align: center;">
+
+                <div class="paragraph">
+
                 </div>
             </div>
         </div>
     </section>
+    <div id="gap" class="container-fluid" style="display: none;"></div>
+    <section id="research" class="section" style="display: none;">
+        <div class="research-container"></div>
+        <div class="container-fluid">
+            <div class="title-container">
+                <h3 id="coMethods" class="text-box">Cyber</h3>
+            </div>
+            <div class="container text-center">
+                <div class="paragraph">
 
+                </div>
+            </div>
+        </div>
+    </section>
     <div id="gap" class="container-fluid"></div>
+    <section id="resume" style="padding: 0px !important; display: none;">
+        <div class="contact-container"></div>
+        <div class="container-fluid">
+            <div class="title-container" style="margin-bottom: 40px; z-index: 500;">
+                <h3 id="cMethods" class="text-box" style=" z-index: 100;"></h3>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="padding: 0px !important">
+        <div class="container-fluid" style="z-index: 500;">
+            <div class="title-container" style=" z-index: 500; display: flex; align-items: center;">
+                <h3 id="ccMethods" class="text-box"
+                    style=" z-index: 500; display: inline-block; vertical-align: middle; color: #000; font-size: 14vw;">Contact</h3>
 
-    <section id="work" class="section">
-        <div class="experience-image-container "><img src="img/numbersandgraphs.webp"></div>
-        <div class="container">
-            <div class="heading text-center">
-                <h3 class="text-box">Experience</h3>
+            </div>
+            <div class="container text-center"
+                style="padding-bottom: 20px; z-index: 500; margin: 0 auto; display: inline;">
+                <div class="col-12">
+                    <a href="mailto:joemendezhughes@gmail.com" email class="contactButton" style="z-index: 500;"><i
+                            class="fa-solid fa-envelope fa-7x"></i></a>
+                    <h3 style="margin: 60px; z-index: 500; color: #333333; font-size: 1.5rem;">If you are interested in
+                        starting a conversation,
+                        email me at: <b style="word-wrap: break-word;"><a href="mailto:email@gmail.com"
+                                style="color: #333333;">joemendezhughes@gmail.com</a></b> or click/press the button above.</h3>
+                </div>
             </div>
         </div>
     </section>
     <div id="gap" class="container-fluid"></div>
-    <section class="resume-section">
-        <div class="container"
-            style="border: .5px #00CC66; border-style: solid none; padding-top: 10px; padding-bottom: 10px; z-index: 50;">
-            <h5 class="heading-section" style="font-weight: bold;">DEVOPS PLATFORM ENGINEER</h5>
-            <h5 class="heading-section" style="font-weight: bold;">Dynamo Technologies, Washington, DC</h5>
-            <h5 class="heading-section" style="font-style: italic;">June 2023 - May 2024</h5>
-            <ul>
-                <li>Automated deployment and management processes using Helm charts and custom Kubernetes operators,
-                    reducing deployment time by 40%.</li>
-                <li>Conducted performance tuning and optimization of Docker containers, resulting in a 30% improvement
-                    in application response times.</li>
-                <li>Created Terraform scripts to automate infrastructure, leading to 20% reduction in manual
-                    configurations and increased compliance with federal standards.</li>
-                <li>Assisted in the migration of legacy systems to modern AWS cloud/containerized environments,
-                    enhancing application portability and maintainability, reducing operational costs by 25%.</li>
-                <li>Developed CI/CD pipelines using Jenkins and GitHub Actions, automating deployments and reducing release
-                    times by 40%.</li>
-                <li>Improved system observability by implementing logging and monitoring solutions with Prometheus and
-                    Grafana.</li>
-            </ul>
-    </section>
-    <div id="gap" class="container-fluid"></div>
-    <section class="resume-section">
-        <div class="container"
-            style="border: .5px #00CC66; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
-            <h5 class="heading-section" style="font-weight: bold;">DEVOPS ENGINEER</h5>
-            <h5 class="heading-section" style="font-weight: bold;">Deep Cloud IQ, New York, NY</h5>
-            <h5 class="heading-section" style="font-style: italic;">July 2021 - September 2023</h5>
-            <ul>
-                <li>Utilized Terraform to build infrastructure on Azure, reducing setup times by 40% and improving consistency.</li>
-                <li>Designed and implemented CI/CD pipelines with Azure DevOps, facilitating continuous integration and
-                    automated testing across multiple environments.</li>
-                <li>Containerized application services with Docker, resulting in 25% faster deployments across all environments.</li>
-                <li>Set-up secure Kubernetes clusters on Azure, providing highly available services with a 99.9% reliability rate.</li>
-                <li>Collaborated with security teams to implement best practices, reducing security vulnerabilities by 50%.</li>
-            </ul>
-        </div>
-    </section>
-    <div id="gap" class="container-fluid"></div>
-    <section class="resume-section">
-        <div class="container"
-            style="border: .5px #00CC66; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
-            <h5 class="heading-section" style="font-weight: bold;">SOFTWARE ENGINEER</h5>
-            <h5 class="heading-section" style="font-weight: bold;">Millennial Shift, Phoenix, AZ</h5>
-            <h5 class="heading-section"  style="font-style: italic;">October 2020 - June 2021</h5>
-            <ul>
-                <li>Developed efficient and scalable SOAP and RESTful APIs, ensuring seamless communication between
-                    systems and improving overall performance.</li>
-                <li>Engineered scalable and secure solutions, safeguarding sensitive data for the first, third, and
-                    fifth-largest wholesale insurance companies in the U.S.</li>
-                <li>Analyzed, debugged, and optimized complex software systems, improving system stability and
-                    performance.</li>
-                <li>Ensured data integrity and quality by implementing error-handling mechanisms and validation
-                    routines.</li>
-                <li>Collaborated with frontend and DevOps teams to ensure seamless integration and deployment of backend
-                    services in a microservices architecture.</li>
-            </ul>
-        </div>
-    </section>
-    <div id="gap" class="container-fluid"></div>
-    <section class="resume-section">
-        <div class="container"
-            style="border: .5px #00CC66; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
-            <h5 class="heading-section" style="font-weight: bold;">JUNIOR DEVOPS ENGINEER</h5>
-            <h5 class="heading-section"style="font-weight: bold;">Prizelogic, Scottsdale, AZ</h5>
-            <h5 class="heading-section"  style="font-style: italic;">February 2018 - May 2020</h5>
-            <ul>
-                <li>Collaborated closely with cross-functional teams to design and implement secure solutions for
-                    efficient data processing and management.</li>
-                <li>Assisted in setting up CI/CD workflows with Jenkins, reducing integration time by 20%.</li>
-                <li>Worked closely with senior engineers to design and optimize microservices architecture for
-                    high-performance applications.</li>
-                <li>Developed and implemented scalable solutions to streamline data workflows, ensuring system
-                    consistency and efficiency.</li>
-                <li>Gained hands-on experience with Docker and Kubernetes for containerizing applications and managing
-                    distributed services.</li>
-            </ul>
-        </div>
-    </section>
-     <section class="resume-section">
-        <div class="container"
-            style="border: .5px #00CC66; border-style: solid none; padding-top: 10px; padding-bottom: 10px;">
-            <h5 class="heading-section" style="font-weight: bold;">JUNIOR SYSTEMS ENGINEER</h5>
-            <h5 class="heading-section"style="font-weight: bold;">Aflac, Las Vegas, NV</h5>
-            <h5 class="heading-section"  style="font-style: italic;">January 2017 - February 2018</h5>
-            <ul>
-                <li>Collaborated with senior engineers to troubleshoot and resolve system performance issues, reducing downtime by 20% through proactive monitoring and system optimizations.</li>
-                <li>Participated in the deployment and upgrade of server infrastructure, including hardware installation, OS upgrades, and patch management across multiple environments.</li>
-                <li>Developed and maintained system documentation and user guides, facilitating the onboarding process for new team members and end users.</li>
-                <li>Monitored system logs and alerts using automated monitoring tools, responding to incidents and performing root cause analysis to ensure system reliability and stability.</li>
-                <li>Assisted in configuring and maintaining Windows and Linux-based systems, ensuring seamless operations and adherence to security protocols.</li>
-            </ul>
-        </div>
-    </section>
-    <div id="gap" class="container-fluid"></div>
-    <section id="resume">
-        <div class="resume-image-container"><img src="img/connectors.webp"></div>
-        <div class="container text-center" style="padding-bottom: 20px; z-index: 50;">
-            <div class="col-12" style="margin-top: 30px; margin-bottom: 40px; z-index: 50;">
-                <h3 class="text-box">Resume</h3>
+    <section id="footer" class="section" style="padding-bottom: 0px !important;">
+        <div class="about-container" style="z-index: 0;"><img src="img/favicon.png"></div>
+        <div class="container-fluid" style="z-index: 500">
+            <div class="title-container">
+                <h3 id="cciMethods" class="text-box" style="font-size: 14vw;">Thanks!</h3>
             </div>
-            <div class="pdf-container">
-                <iframe src="img/Joe Mendez Hughes Resume.pdf" class="resume-image desktop-device" frameborder="0"
-                    alt="Joe Mendez Hughes Resume.pdf"></iframe>
-                <img src="img/Joe Mendez Hughes Resume.jpg" class="resume-image mobile-device"
-                    alt="Joe Mendez-Hughes Resume Image">
-            </div>
-            <div class="col-12" style="margin: 0 auto;">
-                <a href="img/Joe Mendez Hughes Resume.docx" download class="downloadButton"
-                    style="margin-top: 30px;">Download</a>
-                <h6 style="margin: 20px;"><i>Download my Resume as a Word .docx file</i></h6>
-            </div>
-        </div>
-    </section>
-    <div id="gap" class="container-fluid"></div>
-    <section id="contact" class="contactSection section">
-        <div class="email-container"><img src="img/computerboard.webp"></div>
-        <div class="container text-center">
-            <div class="heading">
-                <h3 class="text-box">Contact</h3>
-                <a href="mailto:joemendezhughes@gmail.com" email class="contactButton"
-                    style="margin-top: 50px;">Email</a>
-                <h4 style="margin-top: 45px; ">Get in touch!</i></h4>
-            </div>
-        </div>
-    </section>
-    <div id="gap" class="container-fluid"></div>
-    <section id="thanks" class="thanksSection section" style="padding-bottom: 0px !important;">
-        <div class="container text-center quote">
-            <h5 class="quote" >Dear Guest,<br>
-                Thank you for visiting my website! I truly appreciate your time and interest, and I look forward to
-                connecting with you soon!
-            </h5>
-            <div class="thanks-container" style="padding-top: 40px;">
-                <img src="img/navbar.svg" alt="Logo">
-            </div>
-            <p style="color: #666; padding-top: 30px; font-size: small; margin-bottom: 0px !important; font-family: sans-serif;">
-                &copy;2024 Joe Mendez-Hughes
-            </p>
-        </div>
-    </section>
-    <div id="gap" class="container-fluid"></div>
+            <div class="container text-center" style="margin: auto; margin-top: 7%; ">
+                    <p style="font-size: 1.5rem !important; margin: auto; font-weight: 500;">
+                        Dear Guest,</br>
+                        Thank you for visiting my website! I truly appreciate your time and interest, and I look forward
+                        to connecting with you soon!
+                    </p>
 
+            <div class="footer-image" style="padding-bottom: 25px;">
+                <img src="img/navbar-image.svg" alt="Logo">
+            </div>
+        </div>
+        </div>
+    </section>
+    <div id="smallGap" class="container-fluid"></div>
+    <div class="copyright" style="background-color: #fff;">
+        <h6
+            style="color: #666666; font-family: sans-serif; font-size: .8rem; z-index: 100; margin-bottom: 0px !important; text-align: center;">
+            &copy;2024 Joe Mendez-Hughes</h6>
+    </div>
+    <div id="smallGap" class="container-fluid"></div>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="js/countUp.js"></script>
     <script src="js/countUp-jquery.js"></script>
     <script src="js/jquery.superslides.min.js"></script>
