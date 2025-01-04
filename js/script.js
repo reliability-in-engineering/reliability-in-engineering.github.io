@@ -8,77 +8,6 @@ function newFunction() {
 
     });
 
-    new TypeIt("#companionMethods", {
-        speed: 250,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#companiMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#compaMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#compMethods", {
-        speed: 50,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-
-    new TypeIt("#comMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#coMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#cMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#ccMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-    new TypeIt("#cciMethods", {
-        speed: 120,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-    new TypeIt("#ooMethods", {
-        speed: 20,
-        waitUntilVisible: true,
-        cursor: false,
-    })
-        .go();
-
-
 
     $(document).ready(function () {
 
@@ -102,6 +31,9 @@ function newFunction() {
                 },
                 938: {
                     items: 4
+                },
+                1007: {
+                    items: 5
                 },
             }
         });
