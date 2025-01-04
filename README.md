@@ -1,2 +1,2 @@
-Joe Mendez-Hughes
+Joe Mendez
 DevOps Engineer
