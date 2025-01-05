@@ -234,31 +234,22 @@ li {
     padding-bottom: 20px !important;
     margin: 0 auto;
     background-color: #000000 !important;
-
     height: auto !important;
-
+  }
+  .resume-section {
+    max-width: 98vw;
   }
 }
 /*******************************************END********************************************/
 
 /*******************************************    MOBILE @ 750px     ********************************************/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 769px) {
   .landing-image {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
-  .desktop-image {
-    display: none;
-  }
-  .mobile-image {
-    display: block;
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   div.thanks-container {
@@ -268,14 +259,6 @@ li {
   .thanks-container img {
     width: 100%; /* Make the image responsive */
     height: auto;
-  }
-
-  .desktop-device {
-    display: block;
-  }
-
-  .mobile-device {
-    display: none;
   }
   ul {
     padding-left: 10px;
@@ -323,6 +306,9 @@ li {
     min-height: 12px !important;
     box-shadow: none;
   }
+  .resume-section {
+    max-width: 98vw;
+  }
 }
 /*******************************************END********************************************/
 
@@ -352,43 +338,11 @@ li {
     transform: translateY(-50%);
   }
 
-  .desktop-image {
-    display: none;
-  }
-
-  .mobile-image {
-    display: block;
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 
   #navbar .navbar.navbar-expand-lg.navbar-dark {
     align-items: center;
     justify-content: center;
     margin: auto 0;
-  }
-
-  .pdf-container {
-    width: 100%;
-    height: 100%; /* Make it responsive but not take full height on desktop */
-    max-width: 95vw;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0.1px solid transparent; /* Optional: To show boundaries */
-  }
-  .desktop-device {
-    display: none;
-  }
-
-  .mobile-device {
-    display: block;
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    padding: 0px 10px;
   }
 
   p {
