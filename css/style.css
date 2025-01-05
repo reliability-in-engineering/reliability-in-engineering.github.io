@@ -960,7 +960,6 @@ li {
 
 .heading-section {
   color: #ffffff;
-
   font-size: 1.5rem;
   z-index: 100;
   padding-top: 10px;
@@ -969,7 +968,7 @@ li {
 }
 
 .heading-section1 {
-  color: #00CC66;
+  color: #FFFFFF;
   font-family: "Anton", sans-serif;
   font-size: 3rem;
   padding-top: 10px;
