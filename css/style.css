@@ -186,24 +186,7 @@ li {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .desktop-device {
-    display: block;
-  }
 
-  .mobile-device {
-    display: none;
-  }
-
-  .desktop-image {
-    display: none;
-  }
-  .mobile-image {
-    display: block;
-    width: 100%; /* Make the image responsive */
-    height: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   .container d-flex align-items-center {
     margin-left: 15px;
     margin-right: 15px;
