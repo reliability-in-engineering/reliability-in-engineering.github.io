@@ -304,6 +304,9 @@ li {
     background-color: #000000 !important;
     height: auto !important;
   }
+    #stats {
+    padding-top: 20px !important;
+  }
   #slides .col{
     font-size: 100% !important;
   }
