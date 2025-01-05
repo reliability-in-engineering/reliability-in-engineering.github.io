@@ -222,6 +222,12 @@ li {
   .resume-section {
     max-width: 98vw;
   }
+  #slides h1, h4, h6, a.button-2 {
+    margin-left: 30px;
+  }
+  #slides a.button-2 {
+    margin-left: 10px;
+  }
 }
 /*******************************************END********************************************/
 
