@@ -343,13 +343,6 @@ li {
     justify-content: center;
     align-items: center;
   }
-  h3.quote {
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: "Poppins", sans-serif !important;
-    margin: 0 auto;
-    font-size: 1rem !important;
-  }
 
   .text-box {
     max-width: 95vw;
@@ -452,7 +445,7 @@ li {
     margin-left: 15px !important;
   }
   .logo-image img {
-    height: 2.9vh !important;
+    height: 4vh !important;
   }
   .col {
     margin-top: 100px;
@@ -472,19 +465,19 @@ li {
   #contact .footer-image {
     margin-top: -50px !important;
   }
-  #slides h4 {
-    font-size: 1.25rem !important;
-  }
-  #slides h1 {
-    font-size: 200% !important;
-  }
-  #slides h1 {
+  #slides h1, h5 {
     text-align: center !important;
     padding: 10px 10px !important;
   }
+    #slides h1 {
+    font-size: 200% !important;
+  }
+ #slides  h4 {
+    font-size: 1.25rem !important;
+  }
+  
   #slides .col, .row, h1, h4, h6, a.button-2{
     text-align: center !important;
-
     padding: 10px 10px !important;
     margin: 0 auto !important;
     margin-left: 0px !important;
@@ -505,6 +498,7 @@ li {
     width: 10px !important;
   }
 }
+
 
 /*******************************************END********************************************/
 
