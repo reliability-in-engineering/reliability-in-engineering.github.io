@@ -153,8 +153,9 @@ li {
   margin: 0 auto;
 }
 .logo-image img {
-  height: 100%;
-  max-width: 425px;
+    height: 100%;
+    max-width: 97%;
+    width: 475px;
 }
 
 .landing-image-container {
