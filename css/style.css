@@ -152,6 +152,10 @@ li {
 #document {
   margin: 0 auto;
 }
+.logo-image img {
+  height: 100%;
+  max-width: 425px;
+}
 
 .landing-image-container {
   position: relative;
@@ -509,9 +513,6 @@ li {
   .resume-section {
     max-width: 95vw !important;
     width: 100%;
-  }
-  .logo-image{
-    width: 10px !important;
   }
 }
 
