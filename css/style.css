@@ -458,9 +458,10 @@ li {
   }
   .logo-image  {
     margin-left: 15px !important;
+    max-width: 355px !important;
   }
   .logo-image img {
-    height: 3.3vh !important;
+    height: 100% !important;
   }
   .col {
     margin-top: 100px;
